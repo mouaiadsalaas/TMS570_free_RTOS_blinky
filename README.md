@@ -63,10 +63,14 @@ Navigate: -> File -> NEW -> CCS project
 then in the window Navigate: -> target -> TMS570LS04x 
 Navigate: -> Connection -> texas instruments XDS100v2 USB Debug probe 
 
-Step 7:
+Step 9:
 
 in project properties
 Navigate: -> include option -> add include file from the code we generate in HALCOGEN
 Navigate: -> advanced option -> language -> change it to c99
 Navigate: -> Debug -> Flash option -> erase option -> neccessry only
+
+Step 10:
+
+go to your halcogen project and from there copy the files the paste them in your code composer studio project file
 
